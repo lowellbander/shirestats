@@ -5,7 +5,7 @@ app.debug = True
 
 @app.route('/')
 def index():
-    return "Under construction, at the order of Baevid Trapezius Guo."
+    return render_template("index.html")
 
 if __name__ == '__main__':
     app.run()
